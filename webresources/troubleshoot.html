@@ -12,36 +12,36 @@
 
     <title>MODEL XXXXXX Drill Press Instruction Sheet</title>
 
-	<!-- CSS For Accordion -->
-	<style>
-	.accordion {
-		background-color: #eee;
-		color: #444;
-		cursor: pointer;
-		padding: 18px;
-		width: 100%;
-		border: none;
-		text-align: left;
-		outline: none;
-		font-size: 15px;
-		transition: 0.4s;
-	}
+    <!-- CSS For Accordion -->
+    <style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
 
-	.active, .accordion:hover {
-		background-color: #ccc;
-	}
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
 
-	.panel {
-		padding: 0 18px;
-		background-color: white;
-		max-height: 0;
-		overflow: hidden;
-		transition: max-height 0.2s ease-out;
-	}
-	</style>
-	
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+    </style>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -89,24 +89,24 @@
       <div class="row">
         <div class="col-md-12">
           <button class="accordion">General Instructions</button>
-		  <div class="panel">
-  			<p>Start instructions here</p>
+          <div class="panel">
+            <p>Start instructions here</p>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12">
           <button class="accordion">General Instructions</button>
-		  <div class="panel">
-  			<p>Start instructions here</p>
+          <div class="panel">
+            <p>Start instructions here</p>
           </div>
-       </div>
-     </div>
-     <div class="row">
+        </div>
+      </div>
+      <div class="row">
         <div class="col-md-12">
           <button class="accordion">General Instructions</button>
-		  <div class="panel">
-  			<p>Start instructions here</p>
+          <div class="panel">
+            <p>Start instructions here</p>
           </div>
         </div>
       </div>
@@ -120,28 +120,28 @@
 
 
     <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script>
-	var acc = document.getElementsByClassName("accordion");
-	var i;
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+      <script src="../../dist/js/bootstrap.min.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+      <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-	for (i = 0; i < acc.length; i++) {
-	  acc[i].addEventListener("click", function() {
-		this.classList.toggle("active");
-		var panel = this.nextElementSibling;
-		if (panel.style.maxHeight){
-		  panel.style.maxHeight = null;
-		} else {
-		  panel.style.maxHeight = panel.scrollHeight + "px";
-		} 
-	  });
-	}
-	</script>
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+      </script>
   </body>
 </html>
